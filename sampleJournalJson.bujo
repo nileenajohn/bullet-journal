@@ -1,0 +1,174 @@
+{
+  "notes": "Last day of OOD",
+  "week": {
+    "name" : "My Week",
+    "days": [
+        {
+          "events": [
+            {
+              "name": "Doctor Appointment",
+              "description": "Yearly physical",
+              "startTime": "9:00 am",
+              "duration": "60"
+            }
+          ],
+          "tasks": [
+          ]
+        },
+        {
+          "events": [
+            {
+              "name": "Nail Appointment",
+              "description": "Acrylic manicure",
+              "startTime": "11:00 am",
+              "duration": "45"
+            },
+            {
+              "name": "Birthday party",
+              "description": "sweet sixteen",
+              "startTime": "8:00 pm",
+              "duration": "60"
+            },
+            {
+              "name": "Interview",
+              "description": "For tutoring position",
+              "startTime": "3:00 pm",
+              "duration": "25"
+            }
+          ],
+          "tasks": [
+            {
+              "name": "Email",
+              "description": "Send email to boss to quit",
+              "complete": true
+            }
+          ]
+        },
+        {
+          "events": [
+            {
+              "name": "Project",
+              "description": "",
+              "startTime": "11:00 am",
+              "duration": "60"
+            },
+            {
+              "name": "Store visit",
+              "description": "buy groceries",
+              "startTime": "7:00 pm",
+              "duration": "40 min"
+            }
+          ],
+          "tasks": [
+            {
+              "name": "Cook dinner",
+              "description": "for dinner party",
+              "complete": false
+            },
+            {
+              "name": "Feed dog",
+              "description": "",
+              "complete": true
+            },
+            {
+              "name": "Present",
+              "description": "Buy birthday present",
+              "complete": false
+            }
+          ]
+        },
+        {
+          "events": [
+            {
+              "name": "Shopping",
+              "description": "for Italy summer trip",
+              "startTime": "2:00 pm",
+              "duration": "60"
+            }
+          ],
+          "tasks": [
+            {
+              "name": "Call salon",
+              "description": "",
+              "complete": false
+            },
+            {
+              "name": "Cook",
+              "description": "make pasta",
+              "complete": true
+            },
+            {
+              "name": "Homework",
+              "description": "Finish coding assignment",
+              "complete": false
+            }
+          ]
+        },
+        {
+          "events": [
+          ],
+          "tasks": [
+            {
+              "name": "Go to mall",
+              "description": "return dress",
+              "complete": true
+            },
+            {
+              "name": "Buy outfit",
+              "description": "for party",
+              "complete": false
+            }
+          ]
+        },
+        {
+          "events": [
+            {
+              "name": "Play",
+              "description": "broadway show",
+              "startTime": "8:00 pm",
+              "duration": "60"
+            }
+          ],
+          "tasks": [
+            {
+              "name": "Call sister",
+              "description": "ASAP",
+              "complete": true
+            }
+          ]
+        },
+        {
+          "events": [
+            {
+              "name": "Club event",
+              "description": "for Science Olympiad",
+              "startTime": "3:00 pm",
+              "duration": "60"
+            },
+            {
+              "name": "Party",
+              "description": "",
+              "startTime": "10:00 pm",
+              "duration": "60"
+            }
+          ],
+          "tasks": [
+            {
+              "name": "Get ready",
+              "description": "for class",
+              "complete": true
+            },
+            {
+              "name": "House chores",
+              "description": "",
+              "complete": false
+            }
+          ]
+        }
+    ]
+  },
+  "maxEvents": 6,
+  "maxTasks": 4,
+  "horizontal": true,
+  "startDaySun": true
+}

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Scene xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <AnchorPane prefHeight="200" prefWidth="200">
+      <children>
+         <VBox alignment="TOP_CENTER" layoutX="-1.0" prefHeight="200.0" prefWidth="200.0">
+            <children>
+               <Label text="Event Details:" />
+               <Label fx:id="eventErrorMessage" textFill="#d32b2b">
+                  <font>
+                     <Font size="8.0" />
+                  </font>
+               </Label>
+               <VBox prefHeight="200.0" prefWidth="181.0">
+                  <children>
+                     <HBox alignment="CENTER_RIGHT" prefHeight="17.0" prefWidth="200.0">
+                        <children>
+                           <Label text="Name:  ">
+                              <font>
+                                 <Font size="9.0" />
+                              </font>
+                           </Label>
+                           <TextField fx:id="eventNameInput" alignment="TOP_LEFT" prefHeight="26.0" prefWidth="167.0" />
+                        </children>
+                     </HBox>
+                     <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                        <children>
+                           <Label text="Description:  ">
+                              <font>
+                                 <Font size="9.0" />
+                              </font>
+                           </Label>
+                           <TextField fx:id="eventDescriptionInput" alignment="TOP_LEFT" prefHeight="24.0" prefWidth="147.0" />
+                        </children>
+                     </HBox>
+                     <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                        <children>
+                           <Label text="Day of Week  ">
+                              <font>
+                                 <Font size="9.0" />
+                              </font>
+                           </Label>
+                           <ChoiceBox fx:id="dayOfWeekChoiceBox" prefHeight="27.0" prefWidth="145.0" />
+                        </children>
+                     </HBox>
+                     <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                        <children>
+                           <Label text="Start time:  ">
+                              <font>
+                                 <Font size="9.0" />
+                              </font>
+                           </Label>
+                           <TextField fx:id="eventStartTimeInput" alignment="TOP_LEFT" prefHeight="28.0" prefWidth="88.0" promptText="00:00" />
+                           <ChoiceBox fx:id="startTimeChoiceBox" prefHeight="27.0" prefWidth="66.0" />
+                        </children>
+                     </HBox>
+                     <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                        <children>
+                           <Label prefHeight="11.0" prefWidth="40.0" text="Duration:  ">
+                              <font>
+                                 <Font size="9.0" />
+                              </font>
+                           </Label>
+                           <TextField fx:id="eventDurationInput" alignment="TOP_LEFT" prefHeight="26.0" prefWidth="126.0" promptText="0" />
+                           <Label prefHeight="11.0" prefWidth="30.0" text=" min">
+                              <font>
+                                 <Font size="9.0" />
+                              </font>
+                           </Label>
+                        </children>
+                     </HBox>
+                     <HBox alignment="CENTER" prefHeight="42.0" prefWidth="200.0" />
+                  </children>
+               </VBox>
+               <HBox alignment="CENTER" prefHeight="76.0" prefWidth="200.0">
+                  <children>
+                     <Button fx:id="saveEventBtn" mnemonicParsing="false" style="-fx-background-color: #cde3c5;" text="Save Event">
+                        <font>
+                           <Font size="9.0" />
+                        </font>
+                     </Button>
+                  </children>
+               </HBox>
+            </children>
+         </VBox>
+      </children></AnchorPane>
+</Scene>
