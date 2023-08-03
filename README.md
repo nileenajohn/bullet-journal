@@ -3,7 +3,7 @@
 
 [PA Write Up](https://markefontenot.notion.site/PA-05-8263d28a81a7473d8372c6579abd6481)
 
-# Note to TA Grader:
+# Notes:
 - The password for the journal is password123
 - We added partial images of the UML (as UMLpt1, UMLpt2, UMLp3) because it's too big for the grader to see.
 
