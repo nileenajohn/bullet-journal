@@ -5,7 +5,7 @@
 
 # Notes:
 - The password for the journal is password123
-- We added partial images of the UML (as UMLpt1, UMLpt2, UMLp3) because it's too big for the grader to see.
+- We added partial images of the UML (as UMLpt1, UMLpt2, UMLp3) because it's too big to see.
 
 # Screenshot of Week GUI View: doesn't allow us to paste an image here, attached in project repository in main directory (along with UML)
 
